@@ -1,35 +1,49 @@
-# Elevate-Labs-Data-Analyst-Internship-Day-1
-This repository contains the completed Day 1 task from my Data Analytics Internship at Elevate Labs. The objective was to clean and preprocess the Medical Appointment No Shows dataset using Python (Pandas).
-Key Work Done
+Internship: Data Analytics Internship at Elevate Labs
+Dataset: Medical Appointment No Shows (Kaggle)
 
-Cleaned and standardized column names
+Task 1 – Data Cleaning & Preprocessing
 
-Fixed invalid and missing values
+
+✔ What Was Done
+
+Cleaned and standardized all column names
+
+Fixed data types (IDs, dates, numeric fields)
+
+Handled missing & invalid values (negative ages → replaced with median)
 
 Removed duplicate records
 
-Standardized gender and neighbourhood fields
+Standardized text fields (gender, neighbourhood)
 
-Converted dates into proper datetime format
+Parsed date columns and created:
 
-Created additional features (scheduled_date, appointment_date, wait_days)
+scheduled_date
+
+appointment_date
+
+wait_days
 
 Normalized all binary columns (0/1)
 
-Converted the no_show column into a clean binary label
+Converted no_show into a clean binary label:
 
-Deliverables
+1 = Did not show
 
-Cleaned CSV file
+0 = Showed up
 
-Cleaned Excel file
+📁 Output Files
 
-Professional PDF report
+medical_appointments_cleaned.csv
 
-Tools
+medical_appointments_cleaned.xlsx
+
+🛠 Tools Used
 
 Python
 
 Pandas
 
-NumPy
+🎯 Result
+
+A fully cleaned, consistent, and analysis-ready dataset prepared as part of Task 1 for the Data Analytics Internship at Elevate Labs.
